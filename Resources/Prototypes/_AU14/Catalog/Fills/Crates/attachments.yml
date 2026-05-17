@@ -1,0 +1,69 @@
+- type: entity
+  parent: RMCCrateAmmo
+  id: AU14CrateGearAttachmentsMixed
+  name: rail attachments crate (3x red dot sights, 2x reflex sights, 3x 2x scopes, 1x 4x scope)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCAttachmentS5RedDotSight
+      amount: 3
+    - id: RMCAttachmentS6ReflexSight
+      amount: 2
+    - id: RMCAttachmentS5Scope2x
+      amount: 3
+    - id: RMCAttachmentS84xTelescopicScope
+      amount: 1
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: AU14CrateGearAttachmentsSights
+  name: rail attachments crate (5x red dot sights, 5x reflex sights)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCAttachmentS5RedDotSight
+      amount: 5
+    - id: RMCAttachmentS6ReflexSight
+      amount: 5
+
+  - type: entity
+    parent: RMCCrateAmmo
+    id: AU14CrateGearAttachmentsScopes
+    name: scope attachments crate (3x 2x scopes, 2x 4x scopes)
+    components:
+    - type: StorageFill
+      contents:
+    - id: RMCAttachmentS5Scope2x
+      amount: 3
+    - id: RMCAttachmentS84xTelescopicScope
+      amount: 2
+  - type: entity
+    parent: RMCCrateAmmo
+    id: AU14CrateGearAttachmentsBarrel
+    name: barrel attachments crate (2x extended barrels, 2x recoil compensators, 2x shotgun chokes)
+    components:
+    - type: StorageFill
+      contents:
+    - id: RMCAttachmentExtendedBarrel
+      amount: 2
+    - id: RMCAttachmentRecoilCompensator
+      amount: 2
+    - id: RMCAttachmentShotgunChoke
+      amount: 2
+  - type: entity
+    parent: RMCCrateAmmo
+    id: AU14CrateGearAttachmentsUnderbarrel
+    name: underbarrel attachments crate (2x angled grips, 2x bipods, 2x vertical grips, 1x laser sight, 1x mini-flamethrower)
+    components:
+    - type: StorageFill
+      contents:
+    - id: RMCAttachmentAngledGrip
+      amount: 2
+    - id: RMCAttachmentBipod
+      amount: 2
+    - id: RMCAttachmentVerticalGrip
+      amount: 2
+    - id: RMCAttachmentLaserSight
+      amount: 1
+    - id: RMCAttachmentMiniFlamethrower
+      amount: 1
